@@ -1,0 +1,6 @@
+tenancy_ocid     = "ocid1.tenancy.oc1..aaaaaaaaabc4esylkbw3jkbquuluuq4iftuuwnfc2yg2fguo4s7j43exv6pq"
+user_ocid        = "ocid1.user.oc1..aaaaaaaav3bt5yze5igrxbmyijjggknc3d262iww4suzjml6a5glkqaa6qda"
+fingerprint      = "a4:dd:35:9e:43:1b:26:86:e7:25:85:61:4d:1d:35:96"
+private_key_path = "/Users/nalvarez/Oracle/ACS/Training/Terraform_for_the_team/tests/acs_labs/oci/my.pem"
+region           = "us-ashburn-1"
+compartment_ocid = "ocid1.compartment.oc1..aaaaaaaa3dnb2ezoqtaerdgzwbru6mwtdxxpx6vasddy4udn4t2phdnylbaq"
