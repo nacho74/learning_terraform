@@ -1,9 +1,5 @@
 variable "block_count" { default = 2 }
 
-data "oci_identity_availability_domains" "my_availability_domains" {
-    compartment_id = var.compartment_ocid
-}
-
 resource "oci_core_volume" "test_volume_ac" {
   for_each = tomap ( {"small" = "50", "medium" = "60", "large" = "70"} )
   availability_domain = data.oci_identity_availability_domains.my_availability_domains.availability_domains[0]["name"]
