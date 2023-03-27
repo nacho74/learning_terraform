@@ -1,0 +1,3 @@
+output "Hello" {
+  value = "World"
+}
