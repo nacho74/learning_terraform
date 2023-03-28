@@ -1,5 +1,5 @@
 output "Hello" {
-  value = "Hello Team!!"
+  value = "Welcome to the training!!"
 }
 
 # List availability domains
